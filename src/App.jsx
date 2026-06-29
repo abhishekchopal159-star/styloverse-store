@@ -7,6 +7,11 @@ import {
   createContext,
   useContext,
   useRef,
+  // ... upar ke imports (useState, useEffect, etc.)
+
+import { auth, googleProvider, signInWithPopup, RecaptchaVerifier, signInWithPhoneNumber } from './firebase'; 
+
+// ...
 } from 'react';
 
 // ─── STRUCTURED LOGGER ────────────────────────────────────────────────────────
